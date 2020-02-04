@@ -1,0 +1,29 @@
+{
+  "name": "zero_user_gas_fee",
+  "version": "1.0.0",
+  "description": "Basically, there are 3 ways that make user costs the gas fee 1. Approve a smart contract to send a custom token 2. Transfer ERC20 token 3. Call a function of smart contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongdth/zero_user_gas_fee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trongdth/zero_user_gas_fee/issues"
+  },
+  "homepage": "https://github.com/trongdth/zero_user_gas_fee#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.4.0",
+    "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "eth-gas-reporter": "^0.2.14"
+  }
+}
